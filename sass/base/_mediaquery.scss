@@ -1,0 +1,134 @@
+@media screen and (max-width : 1024px) {
+    .home {
+        .content {
+            .container {
+                .header {
+                    .nav-logo {
+                        gap: 40px;
+                        .nav {
+                            ul {
+                                gap: 10px;
+            
+                                li {
+                                    padding: 4px 25px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .main {
+                    &-top {
+                        &-left {
+                            h1 {
+                                font-size: 40px;
+                            }
+
+                            .btn-outline {
+                                padding: 7px 25px;
+                                font-size: 15px;
+                                border: 2px solid #ffffff
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+};
+
+@media screen and (max-width : 850px) {
+    .home {
+        .content {
+            .container {
+                .header {
+                    .nav-logo {
+                        gap: 30px;
+                        .logo {
+                            i {
+                                font-size: 30px;
+                            }
+                        }
+                        .nav {
+                            ul {
+                                gap: 10px;
+            
+                                li {
+                                    padding: 4px 25px;
+                                    font-size: 12px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .main {
+                    &-top {
+                        &-left {
+                            h1 {
+                                font-size: 35px;
+                            }
+
+                            .btn-outline {
+                                padding: 7px 25px;
+                                font-size: 15px;
+                                border: 2px solid #ffffff
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width : 750px) {
+    .home {
+        .content {
+            .container {
+                .header {
+                    .nav-logo {
+                        gap: 30px;
+                        .logo {
+                            i {
+                                font-size: 30px;
+                            }
+                        }
+                        .nav {
+                            ul {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+
+                .main {
+                    &-top {
+                        flex-direction: column;
+                        &-left {
+                            h1 {
+                                text-align: center;
+                            }
+                            align-items: center;
+
+                            
+                        }
+
+                    }
+
+                    &-bottom {
+                        flex-direction: column-reverse;
+                        gap: 40px;
+
+                        &-right {
+                            width: 100%;
+                            align-items: center;
+                            justify-content: center;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
